@@ -1,9 +1,63 @@
-/*
-
-  Insert styles here.
-
-  Open
-    /positioning/menu-exercise/final/index.html
-    to see what you're to recreate.
-
+body {
+  background: honeydew;
+}
+header {
+  background: orange;
+  text-align: center;
+  padding: 40px 0;
+  border-bottom: 4px solid grey;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin-bottom: 50px;
+  z-index: 10;
+}
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 */
+#container {
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+main {
+  margin-top: 150px
+}
+section {
+  border: 3px solid peru;
+  margin-bottom: 40px;
+}
+.features {
+  height: 800px;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.feature {
+  width: 47%;
+  float: left;
+
+}
+
+.comb-deal {
+}
+
+}
+div.combo-item {
+  width: 20%;
+  display: inline-block;
+}
+
+div.feature {
+
+}
+h3 {
+  test-align: center;
+}
